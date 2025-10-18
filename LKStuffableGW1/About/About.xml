@@ -7,7 +7,14 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>LeutianKane.StuffGW1</packageId>
-    <description>Patches that make all Metal type Armor in GrimDark 40k Hammer of the Imperium stuffable.ie craftable with any metal plus original cost.</description>
+    <description>Patches that make all Metal type Armor in GrimDark 40k Hammer of the Imperium stuffable.ie craftable with any metal plus original cost.
+	[b]Supported Mods[/b]
+	[code]
+		Hammer of the Imperium
+		Dead Men
+		Regiments of Renown
+	[/code]	
+	</description>
     <modDependencies>
        
         <li>
@@ -38,4 +45,5 @@
         <li>HappyPurging.AgeofDarkness</li>
 		<li>Grimworld.AstraMilitarum</li>
     </loadAfter>
+
 </ModMetaData>
