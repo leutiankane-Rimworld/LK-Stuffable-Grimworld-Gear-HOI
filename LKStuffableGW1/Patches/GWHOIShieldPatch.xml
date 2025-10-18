@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!--VEF Shield Bubble-->
+<Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]/tickerType</xpath>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]</xpath>
+		<value>
+		<tickerType>Normal</tickerType>
+		</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]/tickerType</xpath>
+	<value>
+	<tickerType>Normal</tickerType>
+    </value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]</xpath>
+		<value>
+		<comps />
+		</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GW_HOI_CommissarUniform"]/comps</xpath>
+	<value>
+	<li Class="VEF.Apparels.CompProperties_ShieldBubble" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+		<compClass>VEF.Apparels.CompShieldBubble</compClass>
+		<blockRangedAttack>true</blockRangedAttack>
+		<blockMeleeAttack>true</blockMeleeAttack>
+		<showWhenDrafted>true</showWhenDrafted>
+		<showOnHostiles>true</showOnHostiles>
+		<showOnNeutralInCombat>true</showOnNeutralInCombat>
+		<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+		<EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
+		<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+		<minShieldSize>1.4</minShieldSize>
+		<maxShieldSize>1.8</maxShieldSize>
+		<disableRotation>true</disableRotation>
+    <chargeFullyWhenMade>true</chargeFullyWhenMade>
+	</li>
+    </value>
+	</Operation>
+</Patch>

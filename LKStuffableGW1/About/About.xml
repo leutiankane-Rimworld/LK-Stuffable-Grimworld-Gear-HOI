@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LK Stuffable Grimworld 40k HOI Gear</name>
+    <author>LeutianKane</author>
+    <modVersion>1.0.1.0</modVersion>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>LeutianKane.StuffGW1</packageId>
+    <description>Patches that make all Metal type Armor in GrimDark 40k Hammer of the Imperium stuffable.ie craftable with any metal plus original cost.</description>
+    <modDependencies>
+       
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>   
+        </li>
+         <li>
+            <packageId>Grimworld.Core</packageId>
+            <displayName>GrimWorld 40,000 - Core Imperialis</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3018671708</steamWorkshopUrl>   
+        </li>
+         <li>
+            <packageId>Grimworld.AstraMilitarum</packageId>
+            <displayName>GrimWorld 40,000 - Hammer of the Imperium</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3015391450</steamWorkshopUrl>   
+        </li>
+    </modDependencies>
+    <loadAfter>
+    <li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>Grimworld.Core</li>
+        <li>HappyPurging.AgeofDarkness</li>
+		<li>Grimworld.AstraMilitarum</li>
+    </loadAfter>
+</ModMetaData>

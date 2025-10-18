@@ -1,0 +1,3 @@
+# Changelog for LK Stuffable Grimworld 40k HOI Gear
+# Author is LeutianKane
+1.0.1.0 ---Initial Release, Patches that make all Metal type Armor in GrimDark 40k Hammer of the Imperium stuffable.ie craftable with any metal plus original cost.
